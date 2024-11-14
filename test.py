@@ -20,7 +20,7 @@ config = Config(
             label='other',
             max_workers=10,
             provider=AdHocProvider(
-                channels=LocalChannel()
+                channel=LocalChannel()
             )
         )
     ])
