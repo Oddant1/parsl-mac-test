@@ -7,7 +7,7 @@ from parsl.executors import HighThroughputExecutor
 from parsl.launchers import SrunLauncher
 
 config = Config(
-    strategy='None',
+    strategy=None,
     executors=[
         HighThroughputExecutor(
             label='default',
